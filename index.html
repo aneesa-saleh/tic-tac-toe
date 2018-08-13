@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic tac toe</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower|Love+Ya+Like+A+Sister|Orbitron|Satisfy" rel="stylesheet">
+</head>
+
+<body>
+  <div class='container pick-first'>
+    <p class='heading'>First move:</p>
+    <div class='wrap-icon'><img src='https://res.cloudinary.com/dureqwfrj/image/upload/v1494672195/tv-2223047_640_gpzpym.png' class='icon' onclick='computerFirst()'>
+    <img src='https://res.cloudinary.com/dureqwfrj/image/upload/v1494672195/person-1824144_640_smaxrm.png' class='icon' onclick='playerFirst()'>
+    </div>
+  </div>
+  
+  <div class='container players-number'>
+    <p class='heading'>Players:</p>
+    <div class='wrap-player'>
+      <div class='player-number' onclick='onePlayer()'><p>1</p></div>
+      <div class='player-number' onclick='twoPlayers()'><p>2</p></div>
+    </div>
+  </div>
+  
+  <div class='container play'>
+    <div class='grid' value='g1'></div>
+    <div class='grid' value='g2'></div>
+    <div class='grid' value='g3'></div>
+    <div class='grid' value='g4'></div>
+    <div class='grid' value='g5'></div>
+    <div class='grid' value='g6'></div>
+    <div class='grid' value='g7'></div>
+    <div class='grid' value='g8'></div>
+    <div class='grid' value='g9'></div>
+  </div>
+  <p class='play-again' onclick='playAgain()'>Play Again<p/>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
